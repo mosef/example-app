@@ -22,6 +22,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <body>
+          <p>Here's where a username should go:</p>
+          <h3>Ash or Misty</h3>
+        </body>
       </div>
     );
   }
