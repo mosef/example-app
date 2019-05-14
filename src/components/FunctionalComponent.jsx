@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../scss/App.scss';
 
-function App() {
+// The following code is an example of a functional component in react.
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
