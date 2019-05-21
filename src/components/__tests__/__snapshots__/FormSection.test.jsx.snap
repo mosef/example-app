@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormSection> 1`] = `
+<div>
+  <h1
+    data-testid="page-title"
+  >
+    New Form
+  </h1>
+  <form
+    data-testid="form"
+  >
+    <input
+      type="text"
+    />
+    <button>
+      Submit
+    </button>
+  </form>
+</div>
+`;
