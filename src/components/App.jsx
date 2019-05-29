@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
+import Map from './game/Map';
 import '../scss/App.scss';
 
 // The following code is an example of a class based component in react.
@@ -23,8 +24,7 @@ class App extends Component {
           </a>
         </header>
         <body>
-          <p>Here's where a username should go:</p>
-          <h3>Ash or Misty</h3>
+          <Map />
         </body>
       </div>
     );
